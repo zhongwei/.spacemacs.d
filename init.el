@@ -54,7 +54,6 @@ values."
      chinese
      chrome
      command-log
-     docker
      emoji
      fasd
      go
