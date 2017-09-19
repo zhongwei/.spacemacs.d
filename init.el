@@ -381,6 +381,8 @@ before packages are loaded."
   (org-babel-do-load-languages
    'org-babel-load-languages
    '((gnuplot . t)))
+  (setq js2-strict-missing-semi-warning nil)
+  (setq js2-missing-semi-one-line-override nil)
  )
 
 ;; Do not write anything past this comment. This is where Emacs will
