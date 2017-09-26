@@ -380,7 +380,9 @@ before packages are loaded."
   (setq org-plantuml-jar-path "~/.spacemacs.d/plantuml.jar")
   (org-babel-do-load-languages
    'org-babel-load-languages
-   '((gnuplot . t)))
+   '((gnuplot . t)
+     (plantuml . t)
+     (dot . t)))
   (setq js2-strict-missing-semi-warning nil)
   (setq js2-missing-semi-one-line-override nil)
  )
