@@ -375,6 +375,7 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+  (display-time-mode 1)
   (setq powerline-default-separator 'arrow)
   (spacemacs/set-leader-keys "oy" 'youdao-dictionary-search-at-point+)
   (setq org-plantuml-jar-path "~/.spacemacs.d/plantuml.jar")
